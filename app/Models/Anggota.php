@@ -10,11 +10,11 @@ class Anggota extends Model
     use SoftDeletes;
 
     protected $fillable = [
-        'divisi_id',
-        'nama',
-        'nim',
-        'jabatan',
-        'angkatan',
-        'status_keanggotaan'
-    ];
+    'divisi_id',
+    'nama',
+    'nim',
+    'jabatan',
+    'angkatan',
+    'status_keanggotaan'
+];
 }
