@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Proker extends Model
 {
-    //
+    public function divisi()
+    {
+        return $this->belongsTo(Divisi::class);
+    }
 }

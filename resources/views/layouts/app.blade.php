@@ -74,11 +74,23 @@
             UKM SENORA
         </div>
 
-        <a href="/">Data Anggota</a>
-        <a href="#">Data Bidang</a>
-        <a href="#">Data Divisi</a>
-        <a href="#">Program Kerja</a>
-        <a href="#">Trash Data</a>
+        <a href="{{ route('anggotas.index') }}">Data Anggota</a>
+
+        <a href="{{ route('bidangs.index') }}">
+            Data Bidang
+        </a>
+
+        <a href="{{ route('divisis.index') }}">
+            Data Divisi
+        </a>
+
+        <a href="{{ route('prokers.index') }}">
+            Program Kerja
+        </a>
+
+        <a href="#">
+            Trash Data
+        </a>
 
     </div>
 
